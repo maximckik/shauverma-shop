@@ -1,11 +1,50 @@
 .card {
-margin: 20px auto;
+    margin: 20px auto;
 
 }
-    .menu {
-        width: 720px;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        flex-wrap: wrap;
-    }
+
+.menu {
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.left {
+    position: fixed;
+    top: 10vh;
+    width: 430px;
+    height: 80vh;
+    z-index: -1;
+}
+
+.btn-close1 {
+    color: white;
+    position: fixed;
+    top: 10vh;
+    left: 400px ;
+    z-index: 0;
+}
+
+.btn-close1:hover {
+    color: yellow;
+}
+.right {
+position: fixed;
+right: 0;
+top: 10vh;
+width: 430px;
+height: 80vh;
+z-index: -1;
+}
+.btn-close2 {
+    color: white;
+    position: fixed;
+    top: 10vh;
+    right: 400px ;
+    z-index: 0;
+}
+.btn-close2:hover {
+    color: yellow;
+}
