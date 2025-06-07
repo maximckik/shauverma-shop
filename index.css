@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card-cust {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
