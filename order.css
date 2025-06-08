@@ -1,0 +1,15 @@
+.noga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 200px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
