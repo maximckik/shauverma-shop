@@ -3,19 +3,23 @@ body {
     padding: 0;
 }
 
-.card-cust {
+.carousel-custom {
     display: flex;
     justify-content: center;
-}
-
-.card img {
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    aspect-ratio: 16/9;
+
+    width: 100vw;
+}
+
+.carousel-inner {
+    width: 100vw;
+    aspect-ratio: 16/9;
+
+}
+.carousel-custom img{
+    width: 100vw;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: top;
 }
