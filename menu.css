@@ -48,3 +48,6 @@ z-index: -1;
 .btn-close2:hover {
     color: yellow;
 }
+img.card-img-top {
+    height: 430px;
+}
