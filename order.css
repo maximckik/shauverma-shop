@@ -24,3 +24,12 @@
     position: fixed;
     bottom: 0;
 }
+.ruka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+    margin: 0 auto;
+}
