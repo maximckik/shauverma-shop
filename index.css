@@ -1,25 +1,12 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.carousel-custom {
+.us {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    aspect-ratio: 16/9;
-
-    width: 100vw;
+    justify-content: center; 
+    text-align: center;
 }
-
-.carousel-inner {
-    width: 100vw;
-    aspect-ratio: 16/9;
-
+.img {
+    height: 1044px;
+    width: 1510px;
 }
-.carousel-custom img{
-    width: 100vw;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    object-position: top;
+.maos {
+    width: 1710px;
 }
