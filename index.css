@@ -23,3 +23,11 @@ body {
     object-fit: cover;
     object-position: top;
 }
+
+video {
+    width: 100vw;
+}
+
+.carousel-custom {
+    overflow: hidden;
+}
