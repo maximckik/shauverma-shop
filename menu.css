@@ -54,3 +54,17 @@ img.card-img-top {
 button.btn.btn-warning {
     margin-left: 75px;
 }
+.dod {
+    position: fixed;
+    height: 500px;
+    width: 425px;
+    left: 0px;
+    top: 100px;
+}
+.dor {
+    position: fixed;
+    height: 500px;
+    width: 425px;
+    right: 0px;
+    top: 100px;
+}
